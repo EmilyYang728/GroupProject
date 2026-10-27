@@ -9,8 +9,8 @@
 Anyone looking for an easy game to play.
 
 ### Input and Output
-Input: key pressed
-Output: letters appearing in hangman; adding a dancing man
+1. Input: key pressed
+2. Output: letters appearing in hangman; adding a dancing man
 
 ![UI Design Idea](<img width="808" height="535" alt="image" src="https://github.com/user-attachments/assets/54087c3e-fdd6-4f33-84d3-0bc17c5b3bed" />
 )
