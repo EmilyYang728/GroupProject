@@ -12,6 +12,17 @@ Anyone looking for an easy game to play.
 1. Input: key pressed
 2. Output: letters appearing in hangman; adding a dancing man
 
+### Smallest Working Version
+1. Randomly generate words
+2. Dancing man should be animated
+3. Track letters you've tried
+4. End game appropriately
+
+### What needs to be researched?
+1. Animating the dancing man
+2. How to randomly generate words
+3. How to know when you've reached the limit (of words)
+
 [UI Design Idea](https://docs.google.com/presentation/d/1TCrd23p9QMNWEaLRz3mTHVH4L5iPUR5JhEY5KjSUmpU/edit?slide=id.p#slide=id.p)
 
 ![]()
