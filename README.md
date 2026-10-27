@@ -12,8 +12,7 @@ Anyone looking for an easy game to play.
 1. Input: key pressed
 2. Output: letters appearing in hangman; adding a dancing man
 
-![UI Design Idea](<img width="808" height="535" alt="image" src="https://github.com/user-attachments/assets/54087c3e-fdd6-4f33-84d3-0bc17c5b3bed" />
-)
+![UI Design Idea](https://docs.google.com/presentation/d/1TCrd23p9QMNWEaLRz3mTHVH4L5iPUR5JhEY5KjSUmpU/edit?slide=id.p#slide=id.p)
 
 ![]()
 
