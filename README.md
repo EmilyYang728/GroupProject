@@ -1,3 +1,4 @@
+
 # Group Programming Project: Dancing Man
 
 ### Hangman spinoff:
@@ -29,3 +30,5 @@ Anyone looking for an easy game to play.
 ![]()
 
 []()
+
+<img width="744" height="553" alt="Screenshot 2026-10-29 at 7 41 29 AM" src="https://github.com/user-attachments/assets/7ca46b50-9104-43ab-97fd-f429f74dc16e" />
