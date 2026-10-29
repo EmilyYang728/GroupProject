@@ -24,7 +24,7 @@ Anyone looking for an easy game to play.
 2. How to randomly generate words
 3. How to know when you've reached the limit (of words)
 
-[UI Design Idea](<img width="381" height="280" alt="Screenshot 2026-10-29 at 7 36 14 AM" src="https://github.com/user-attachments/assets/a4bbb5ca-e24e-4102-aaf6-2645ad780016" />)
+[UI Design Idea](https://docs.google.com/presentation/d/1TCrd23p9QMNWEaLRz3mTHVH4L5iPUR5JhEY5KjSUmpU/edit?slide=id.p#slide=id.p))
 
 ![]()
 
