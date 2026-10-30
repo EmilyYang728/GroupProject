@@ -30,3 +30,6 @@ Anyone looking for an easy game to play.
 
 ## Class Diagram
 <img >
+
+## Logic Flow Diagram
+<img width="801" height="1024" alt="logicdiagram" src="https://github.com/user-attachments/assets/dabcae90-7d78-4ecd-855d-644c51c69809" />
