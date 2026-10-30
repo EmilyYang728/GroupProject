@@ -29,7 +29,8 @@ Anyone looking for an easy game to play.
 <img width="744" height="553" alt="Screenshot 2026-10-29 at 7 41 29 AM" src="https://github.com/user-attachments/assets/7ca46b50-9104-43ab-97fd-f429f74dc16e" />
 
 ## Class Diagram
-<img >
+<img width="851" height="510" alt="Dancing Man Class Diagram" src="https://github.com/user-attachments/assets/69aca2d0-3ede-4f06-a8fd-8de67837b780" />
+
 
 ## Logic Flow Diagram
 <img width="801" height="1024" alt="logicdiagram" src="https://github.com/user-attachments/assets/dabcae90-7d78-4ecd-855d-644c51c69809" />
