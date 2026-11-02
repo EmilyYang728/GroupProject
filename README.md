@@ -35,3 +35,5 @@ Anyone looking for an easy game to play.
 ## Logic Flow Diagram
 <img width="801" height="1024" alt="Dancing Man Logic Flow Diagram" src="https://github.com/user-attachments/assets/17b50808-9e3c-4289-8143-6d52940e415d" />
 
+## UI Mockup
+<img width="1186" height="602" alt="image" src="https://github.com/user-attachments/assets/7d3855a9-8dbd-4978-8d19-6fe3975f026a" />
