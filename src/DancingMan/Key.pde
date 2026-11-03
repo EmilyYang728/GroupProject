@@ -1,7 +1,5 @@
 //Emily D'Costa | 02 Nov 2026 | Keyboard Class
 
-// Key[] keyButtons = new Key[26];
-
   // Variables
   float x, y, w, h;
   String txt;
