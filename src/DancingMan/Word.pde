@@ -1,14 +1,17 @@
 // Emily Yang
 class Word {
   // Member Variables
-  int length;
+  int listLength, randomIndex;
   string randomWord;
 }
 
 // Constructor
-Word() {
-  
-}
+String[] list = loadStrings("animal_bank.txt");
+int listLength = list.length;
+int randomIndex = (int) random(0, listLength - 1);
+
+String randomWord = list[randomIndex];
+println(randomWord);
 
 
 // Member Methods
