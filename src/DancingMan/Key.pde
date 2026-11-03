@@ -1,11 +1,13 @@
 //Emily D'Costa | 02 Nov 2026 | Keyboard Class
 
-  // Variables
-  float x, y, w, h;
-  String txt;
-  boolean hover;
-  color c1, c2;
-  
+// Key[] keyButtons = new Key[26];
+
+// Variables
+float x, y, w, h;
+String txt;
+boolean hover;
+color c1, c2;
+
 class Key {
 
   // Variables
@@ -26,25 +28,25 @@ class Key {
     c2 = #c8c4cf;
   }
 
-// Member variables
-void display() {
-  if (hover == true) {
-    fill(c2);
-  } else {
-    fill(c1);
+  // Member variables
+  void display() {
+    if (hover == true) {
+      fill(c2);
+    } else {
+      fill(c1);
+    }
+    rectMode(CENTER);
+    rect(x, y, w, h, float(txt));
+    textAlign(CENTER, CENTER);
+    text(txt, x, y);
   }
-  rectMode(CENTER);
-  rect(x, y, w, h, float(txt));
-  textAlign(CENTER, CENTER);
-  text(txt, x, y);
-}
 
-// mouseOver/hover function
-void mouseOver(float tempX, float tempY) {
-  if (tempX > x - w/2 && tempX < x + w/2 && tempY > y - h/2 && tempY < y + h/2) {
-    hover = true;
-  } else {
-    hover = false;
+  // mouseOver/hover function
+  void mouseOver(float tempX, float tempY) {
+    if (tempX > x - w/2 && tempX < x + w/2 && tempY > y - h/2 && tempY < y + h/2) {
+      hover = true;
+    } else {
+      hover = false;
+    }
   }
-}
 }
