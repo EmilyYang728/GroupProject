@@ -2,6 +2,7 @@
 class Word {
   // Member Variables
   int length;
+  string randomWord;
 }
 
 // Constructor
