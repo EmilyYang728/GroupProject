@@ -37,3 +37,8 @@ Anyone looking for an easy game to play.
 
 ## UI Mockup
 <img width="1186" height="602" alt="image" src="https://github.com/user-attachments/assets/7d3855a9-8dbd-4978-8d19-6fe3975f026a" />
+
+## Project Schedule
+
+<img width="637" height="123" alt="Screenshot 2026-11-03 at 7 48 10 AM" src="https://github.com/user-attachments/assets/5de764b0-d2c9-417d-9536-6892a56481c5" />
+
