@@ -1,4 +1,5 @@
 // Emily Yang
+// download word_bank.txt for code to run
 size(900,500);
 
 String[] list = loadStrings("word_bank.txt");
