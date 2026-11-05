@@ -1,4 +1,3 @@
-// Carli Christensen
 class DancingMan {
   // Member Variables
   int x,y;
