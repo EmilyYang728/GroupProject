@@ -1,22 +1,16 @@
 // Emily Yang
-class Word {
-  // Member Variables
-  int listLength, randomIndex;
-  string randomWord;
-}
+size(900,500);
 
-// Constructor
-String[] list = loadStrings("animal_bank.txt");
+String[] list = loadStrings("word_bank.txt");
 int listLength = list.length;
-int randomIndex = (int) random(0, listLength - 1);
+int randomIndex = (int) random(0, listLength);
 
 String randomWord = list[randomIndex];
-println(randomWord);
 
+print(randomWord);
 
-// Member Methods
-void display() {
-  // replace rectangle with an image
-  fill(0);
-  rect(x,y,50,50);
-}
+//draw lines
+for (int i = 0; i < randomWord.length(); i++) {
+  int startX = (width/3) + (50*i);
+  line(startX, 70, startX + 30, 70);
+  }
