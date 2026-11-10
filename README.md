@@ -1,6 +1,9 @@
 
 # Group Programming Project: Dancing Man
 
+Reminder: We need to allow the player to guess words and add the dancing man for wrong answers guessed
+
+
 ### Hangman spinoff:
 1. Randomly generate a word
 2. Every time a player makes a mistake, instead of adding a limb, we add a man to the dance floor.
