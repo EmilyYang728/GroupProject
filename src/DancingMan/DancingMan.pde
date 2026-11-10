@@ -1,10 +1,14 @@
 Key[] keyButtons = new Key[26];
 
+Word secretWord;
+
 String displayVal;
 
 void setup() {
   size(900, 500);
   displayVal = " ";
+  
+  secretWord = new Word();
 
   keyButtons[0] = new Key(70, 300, 50, 50, "A");
   keyButtons[1] = new Key(130, 300, 50, 50, "B");
@@ -39,14 +43,18 @@ void draw() {
   background(#78767a);
   drawDisplay();
   for (int i = 0; i<keyButtons.length; i++) {
-    keyButtons[i].keyDisplay();
+    keyButtons[i].display();
     keyButtons[i].mouseOver(mouseX, mouseY);
+    
+    secretWord.display();
   }
 }
 
 void drawDisplay() {
   rectMode(CENTER);
   fill(250);
+  textSize(30);
+}
   textSize(30);
 }
 
