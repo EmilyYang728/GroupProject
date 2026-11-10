@@ -1,10 +1,6 @@
 //Emily D'Costa | 02 Nov 2026 | Keyboard Class
 
-// Variables
-float x, y, w, h;
-String txt;
-boolean hover;
-color c1, c2;
+
 
 class Key {
 
