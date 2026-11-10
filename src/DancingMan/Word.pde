@@ -12,6 +12,8 @@ class Word {
 
 
   void display() {
+    stroke(255);
+    strokeWeight(3);
     for (int i = 0; i < randomWord.length(); i++) {
       int startX = (width/3) + (50*i);
       line(startX, 70, startX + 30, 70);
