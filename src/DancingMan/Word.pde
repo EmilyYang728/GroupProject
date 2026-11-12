@@ -37,8 +37,10 @@ class Word {
 
       if (showLetter = true) {
         // add letter on blanks
+        textSize(50);
+        text(guess, 210 + 50*1, 40);
+        fill(255);
       }
     }
   }
 }
-
