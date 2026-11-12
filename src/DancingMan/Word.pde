@@ -7,7 +7,7 @@ class Word {
   int listLength;
   int randomIndex;
   String randomWord;
-  String guess;
+  char guess;
   boolean showLetter;
 
   //constructor
@@ -16,7 +16,7 @@ class Word {
     listLength = wlist.length;
     randomIndex = (int) random(0, listLength);
     randomWord = wlist[randomIndex];
-    guess = "a"; // placeholder guess
+    guess = ' ';
     showLetter = false;
   }
   //methods
@@ -27,6 +27,10 @@ class Word {
       showLetter = true;
     }
   }
+  
+  void keyPressed() {
+    guess = key;
+  }
 
   void display() {
     stroke(255);
@@ -35,10 +39,10 @@ class Word {
       int startX = (250) + (50*i);
       line(startX, 70, startX + 30, 70);
 
-      if (showLetter = true) {
+      if (showLetter == true) {
         // add letter on blanks
-        textSize(50);
-        text(guess, 210 + 50*1, 40);
+
+        text(guess, 210 + 50*i, 40);
         fill(255);
       }
     }
