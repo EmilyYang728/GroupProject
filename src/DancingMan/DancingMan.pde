@@ -2,11 +2,13 @@ Background bg;
 Key[] keyButtons = new Key[26];
 Word secretWord;
 String displayVal;
+Character c1;
 
 void setup() {
   size(900, 500);
   displayVal = " ";
   bg = new Background();
+  c1 = new Character();
   
   secretWord = new Word();
 
@@ -42,6 +44,7 @@ void setup() {
 void draw() {
   bg.display();
   drawDisplay();
+  c1.display();
   for (int i = 0; i<keyButtons.length; i++) {
     keyButtons[i].display();
     keyButtons[i].mouseOver(mouseX, mouseY);
