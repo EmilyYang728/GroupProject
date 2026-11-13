@@ -3,6 +3,7 @@ Key[] keyButtons = new Key[26];
 Word secretWord;
 String displayVal;
 Character c1;
+String guess = "";
 
 void setup() {
   size(900, 500);
@@ -49,8 +50,8 @@ void draw() {
     keyButtons[i].display();
     keyButtons[i].mouseOver(mouseX, mouseY);
     secretWord.display();
-    
   }
+  crossLetters();
 }
 
 void drawDisplay() {
@@ -60,5 +61,113 @@ void drawDisplay() {
 }
 
 void keyPressed() {
+  guess += str(key).toUpperCase();
   secretWord.keyPressed();
+}
+
+void crossLetters() {
+  if (guess.contains(keyButtons[0].txt)) {
+    stroke(255,0,0);
+    line(60, 300, 80, 310);
+  }
+  if (guess.contains(keyButtons[1].txt)) {
+    stroke(255,0,0);
+    line(120, 300, 140, 310);
+  }
+  if (guess.contains(keyButtons[2].txt)) {
+    stroke(255,0,0);
+    line(180, 300, 200, 310);
+  }
+  if (guess.contains(keyButtons[3].txt)) {
+    stroke(255,0,0);
+    line(240, 300, 260, 310);
+  }
+  if (guess.contains(keyButtons[4].txt)) {
+    stroke(255,0,0);
+    line(300, 300, 320, 310);
+  }
+  if (guess.contains(keyButtons[5].txt)) {
+    stroke(255,0,0);
+    line(360, 300, 380, 310);
+  }
+  if (guess.contains(keyButtons[6].txt)) {
+    stroke(255,0,0);
+    line(420, 300, 440, 310);
+  }
+  if (guess.contains(keyButtons[7].txt)) {
+    stroke(255,0,0);
+    line(480, 300, 500, 310);
+  }
+  if (guess.contains(keyButtons[8].txt)) {
+    stroke(255,0,0);
+    line(540, 300, 560, 310);
+  }
+  if (guess.contains(keyButtons[9].txt)) {
+    stroke(255,0,0);
+    line(600, 300, 620, 310);
+  }
+  if (guess.contains(keyButtons[10].txt)) {
+    stroke(255,0,0);
+    line(660, 300, 680, 310);
+  }
+  if (guess.contains(keyButtons[11].txt)) {
+    stroke(255,0,0);
+    line(720, 300, 740, 310);
+  }
+  if (guess.contains(keyButtons[12].txt)) {
+    stroke(255,0,0);
+    line(780, 300, 800, 310);
+  }
+  if (guess.contains(keyButtons[13].txt)) {
+    stroke(255,0,0);
+    line(60, 360, 80, 370);
+  }
+  if (guess.contains(keyButtons[14].txt)) {
+    stroke(255,0,0);
+    line(120, 360, 140, 370);
+  }
+  if (guess.contains(keyButtons[15].txt)) {
+    stroke(255,0,0);
+    line(180, 360, 200, 370);
+  }
+  if (guess.contains(keyButtons[16].txt)) {
+    stroke(255,0,0);
+    line(240, 360, 260, 370);
+  }
+  if (guess.contains(keyButtons[17].txt)) {
+    stroke(255,0,0);
+    line(300, 360, 320, 370);
+  }
+  if (guess.contains(keyButtons[18].txt)) {
+    stroke(255,0,0);
+    line(360, 360, 380, 370);
+  }
+  if (guess.contains(keyButtons[19].txt)) {
+    stroke(255,0,0);
+    line(420, 360, 440, 370);
+  }
+  if (guess.contains(keyButtons[20].txt)) {
+    stroke(255,0,0);
+    line(480, 360, 500, 370);
+  }
+  if (guess.contains(keyButtons[21].txt)) {
+    stroke(255,0,0);
+    line(540, 360, 560, 370);
+  }
+  if (guess.contains(keyButtons[22].txt)) {
+    stroke(255,0,0);
+    line(600, 360, 620, 370);
+  }
+  if (guess.contains(keyButtons[23].txt)) {
+    stroke(255,0,0);
+    line(660, 360, 680, 370);
+  }
+  if (guess.contains(keyButtons[24].txt)) {
+    stroke(255,0,0);
+    line(720, 360, 740, 370);
+  }
+  if (guess.contains(keyButtons[25].txt)) {
+    stroke(255,0,0);
+    line(780, 360, 800, 370);
+  }
 }
