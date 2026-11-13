@@ -20,7 +20,7 @@ class Word {
     allGuesses = "";
     guess = ' ';
     showLetter = false;
-    print(randomWord);
+    //print(randomWord);
   }
   //methods
   
