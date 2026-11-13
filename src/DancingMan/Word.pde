@@ -7,6 +7,7 @@ class Word {
   int listLength;
   int randomIndex;
   String randomWord;
+  String allGuesses;
   char guess;
   boolean showLetter;
 
@@ -15,9 +16,11 @@ class Word {
     wlist = loadStrings("word_bank.txt");
     listLength = wlist.length;
     randomIndex = (int) random(0, listLength);
-    randomWord = wlist[randomIndex];
+    randomWord = wlist[randomIndex].toUpperCase();
+    allGuesses = "";
     guess = ' ';
     showLetter = false;
+    print(randomWord);
   }
   //methods
   
@@ -25,25 +28,29 @@ class Word {
     guess = guess.toUpperCase();
     if (randomWord.contains(guess)) {
       showLetter = true;
+      allGuesses += guess;
     }
   }
   
   void keyPressed() {
-    guess = key;
+    allGuesses += str(key).toUpperCase();
+    showLetter = true;
   }
 
   void display() {
     stroke(255);
     strokeWeight(3);
+    fill(255);
     for (int i = 0; i < randomWord.length(); i++) {
       int startX = (250) + (50*i);
       line(startX, 70, startX + 30, 70);
 
       if (showLetter == true) {
-        // add letter on blanks
+        if (allGuesses.contains(str(randomWord.charAt(i)))) {
+          text(randomWord.charAt(i), startX + 15, 50);
+        }
+        
 
-        text(guess, 210 + 50*i, 40);
-        fill(255);
       }
     }
   }
