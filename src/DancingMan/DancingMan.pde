@@ -50,7 +50,6 @@ void draw() {
     keyButtons[i].mouseOver(mouseX, mouseY);
     secretWord.display();
     
-    
   }
 }
 
@@ -58,4 +57,8 @@ void drawDisplay() {
   rectMode(CENTER);
   fill(250);
   textSize(30);
+}
+
+void keyPressed() {
+  secretWord.keyPressed();
 }
