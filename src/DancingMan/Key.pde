@@ -1,6 +1,10 @@
 //Emily D'Costa | 02 Nov 2026 | Keyboard Class
 
-
+// Variables
+float x, y, w, h;
+String txt;
+boolean hover;
+color c1, c2;
 
 class Key {
 
@@ -23,14 +27,15 @@ class Key {
   }
 
   // Member variables
-  void display() {
+  void keyDisplay() {
     if (hover == true) {
       fill(c2);
     } else {
       fill(c1);
     }
     rectMode(CENTER);
-    rect(x, y, w, h, float(txt));
+    rect(x, y, w, h, 8);
+    fill(#ab91bf);
     textAlign(CENTER, CENTER);
     text(txt, x, y);
   }
